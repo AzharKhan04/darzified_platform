@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/AzharKhan04/Node_Express_API_Setup#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.2"
   }
 }
