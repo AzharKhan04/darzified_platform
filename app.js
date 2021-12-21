@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const PORT = 9098;
+const PORT = 3000;
 
 
 app.listen(PORT,()=>{
@@ -10,3 +10,10 @@ app.listen(PORT,()=>{
 app.get('/', (req, res) => {
     res.send('Welcome to darzified');
 });
+
+app.get('/greet',(req,res)=>{
+
+    res.json({
+        data:"Welcome to The Darzified App"
+    })
+})
