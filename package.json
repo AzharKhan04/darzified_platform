@@ -1,0 +1,27 @@
+{
+  "name": "node_express_api_setup",
+  "version": "1.0.0",
+  "description": "Node Express Rest API Setup",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AzharKhan04/Node_Express_API_Setup.git"
+  },
+  "keywords": [
+    "Node",
+    "Express",
+    "API"
+  ],
+  "author": "Azhar Khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AzharKhan04/Node_Express_API_Setup/issues"
+  },
+  "homepage": "https://github.com/AzharKhan04/Node_Express_API_Setup#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
